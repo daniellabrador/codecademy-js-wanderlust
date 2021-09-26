@@ -3,10 +3,19 @@
 }
 
 main {
-  margin: 0px auto 50px auto;
-  text-align: center;
-  background-image: url('https://content.codecademy.com/courses/intermediate-javascript-requests/wanderlust/background_photo_desktop.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.687)), url('https://content.codecademy.com/courses/intermediate-javascript-requests/wanderlust/background_photo_desktop.jpg');
+  overflow: hidden;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  background-color: white;
+}
+
+main {
+  margin: 0px auto 50px auto;
   text-align: center;
 }
 
@@ -166,7 +175,7 @@ footer {
 
 @media (max-width: 860px) {
   main {
-    background-image: url('https://content.codecademy.com/courses/intermediate-javascript-requests/wanderlust/background_photo_moble.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.687)), url('https://content.codecademy.com/courses/intermediate-javascript-requests/wanderlust/background_photo_moble.jpg');
   }
 
   h1 {
